@@ -31,7 +31,7 @@ jobs:
           docker compose version
 
       - name: Run integration tests (docker)
-        run: go test -tags=integration ./tests/...
+        run: go test -tags=integration -timeout=30m ./tests/...
 
       - name: Build release archives
         env:
