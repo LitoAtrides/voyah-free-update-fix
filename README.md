@@ -41,10 +41,16 @@ CLI-утилита для анализа и исправления процес�
 
 1. Откройте страницу [Releases](https://github.com/LitoAtrides/voyah-free-update-fix/releases).
 2. Скачайте архив под вашу ОС:
-   - `voyah-free-update-fix_v0.0.1_darwin_amd64.tar.gz` для macOS (Intel),
-   - `voyah-free-update-fix_v0.0.1_darwin_arm64.tar.gz` для macOS (Apple Silicon),
-   - `voyah-free-update-fix_v0.0.1_windows_amd64.zip` для Windows x64,
-   - `voyah-free-update-fix_v0.0.1_linux_amd64.tar.gz` для Linux x64.
+   - macOS:
+     - `voyah-free-update-fix_<version>_darwin_amd64.tar.gz` для Intel,
+     - `voyah-free-update-fix_<version>_darwin_arm64.tar.gz` для Apple Silicon,
+   - Windows:
+     - `voyah-free-update-fix_<version>_windows_amd64.zip` для x64,
+     - `voyah-free-update-fix_<version>_windows_arm64.zip` для ARM64,
+   - Linux:
+     - `voyah-free-update-fix_<version>_linux_amd64.tar.gz` для x64,
+     - `voyah-free-update-fix_<version>_linux_arm64.tar.gz` для ARM64,
+   - `checksums.txt` для проверки целостности архивов.
 3. Распакуйте архив в отдельную папку, например `voyah-free-update-fix`.
 
 
